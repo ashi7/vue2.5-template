@@ -4,7 +4,7 @@
  * @Author: huangyueshi
  * @Date: 2020-07-06 15:35:41
  * @LastEditors: huangyueshi
- * @LastEditTime: 2020-07-21 15:10:00
+ * @LastEditTime: 2020-07-21 16:28:29
  */
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
@@ -16,7 +16,7 @@ import Vuex from 'vuex'
 
 import Interceptors from './service/interceptors' // 拦截器
 import authGuard from './service/auth-guard' // 路由守卫
-import Antd from 'ant-design-vue'
+import Antd from 'ant-design-vue'// UI组件库
 
 import './assets/styles/reset.css'
 import './assets/styles/border.css'
