@@ -10,7 +10,7 @@
 // 优点类似计算属性，改变state里面的数据的时候会触发 getters里面的方法 获取新的值*/
 const getters = {
   showState (state) {
-    return state.data
+    return state.data;
   }
-}
-export default getters
+};
+export default getters;

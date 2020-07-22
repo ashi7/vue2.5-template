@@ -10,5 +10,5 @@
 // Action 提交的是 mutation，而不是直接变更状态。
 // Action 可以包含任意异步操作。
 // 等同于this.$store.dispatch('方法名', { 参数: 参数值 })，修改state里的值
-const actions = {}
-export default actions
+const actions = {};
+export default actions;

@@ -4,10 +4,10 @@
  * @Author: huangyueshi
  * @Date: 2020-07-06 15:23:39
  * @LastEditors: huangyueshi
- * @LastEditTime: 2020-07-21 12:22:09
+ * @LastEditTime: 2020-07-22 18:05:37
 -->
 <template>
- <a-layout id="components-layout-demo-top-side-2">
+  <a-layout id="components-layout-demo-top-side-2">
     <a-layout-header class="header">
       <div class="logo" />
       <a-menu
@@ -48,7 +48,9 @@
         <a-layout-content
           :style="{ background: '#fff', padding: '24px', margin: 0, minHeight: '280px' }"
         >
-          <home-content></home-content>
+          <home-content>
+            <!-- <div>home slot</div> -->
+          </home-content>
           <router-view></router-view>
         </a-layout-content>
       </a-layout>

@@ -6,12 +6,12 @@
  * @LastEditors: huangyueshi
  * @LastEditTime: 2020-07-21 16:26:47
  */
-import Vue from 'vue'
-import Router from 'vue-router'
-import Home from '@/pages/home/Home'
-import HomeChildren from '@/pages/homeChildren/homeChildren'
+import Vue from 'vue';
+import Router from 'vue-router';
+import Home from '@/pages/home/Home';
+import HomeChildren from '@/pages/homeChildren/homeChildren';
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
   routes: [
@@ -23,6 +23,6 @@ export default new Router({
           component: HomeChildren
         }
       ]
-    }, // 首页
+    } // 首页
   ]
-})
+});

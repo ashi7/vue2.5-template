@@ -10,7 +10,7 @@
 // // 等同于this.$store.commit('方法名', { 参数: 参数值 }) ，修改state里的值
 const mutations = {
   updateLoadingStatus (state, payload) {
-    state.isLoading = payload.isLoading
+    state.isLoading = payload.isLoading;
   }
-}
-export default mutations
+};
+export default mutations;
