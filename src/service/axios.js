@@ -4,7 +4,7 @@
  * @Author: huangyueshi
  * @Date: 2020-07-20 12:04:59
  * @LastEditors: huangyueshi
- * @LastEditTime: 2020-07-21 15:14:30
+ * @LastEditTime: 2020-07-22 15:30:58
  */
 import axios from 'axios'
 import store from './../store/index'
@@ -66,7 +66,6 @@ class HTTP {
       resolve(res.data) // 若请求成功，则把请求结果传入resolve中
     } else {
       reject(res.data) // 调用reject，关闭请求流程
-      this._handleError(statusCode) // 调用异常处理函数，展示错误码指定的错误提示
     }
   }
 }
