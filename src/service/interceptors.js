@@ -4,7 +4,7 @@
  * @Author: huangyueshi
  * @Date: 2020-07-20 15:05:57
  * @LastEditors: huangyueshi
- * @LastEditTime: 2020-07-22 17:59:40
+ * @LastEditTime: 2020-07-22 18:08:00
  */
 import axios from 'axios';
 
@@ -25,7 +25,6 @@ const response = axios.interceptors.response.use(res => {
   } else {
     Promise.reject(res); // 调用reject，关闭请求流程
   }
-  return apiRes;
 }, error => {
   if (error.response.status) {
     // 错误状态码
