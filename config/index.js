@@ -4,7 +4,7 @@
  * @Author: huangyueshi
  * @Date: 2020-07-06 15:21:01
  * @LastEditors: huangyueshi
- * @LastEditTime: 2020-07-21 14:16:23
+ * @LastEditTime: 2020-07-23 10:53:56
  */
 'use strict'
 // Template version: 1.3.1
@@ -21,7 +21,7 @@ module.exports = {
       '/api': {
         target: 'http://localhost:8080',
         pathRewrite: {
-          '^/api': '/static/mock'
+          '^/api': '/'
         }
       }
     },

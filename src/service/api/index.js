@@ -4,13 +4,18 @@
  * @Author: huangyueshi
  * @Date: 2020-07-20 15:48:12
  * @LastEditors: huangyueshi
- * @LastEditTime: 2020-07-22 17:58:44
+ * @LastEditTime: 2020-07-23 16:03:03
  */
 import HTTP from './../axios';
 
 class ApiIndex extends HTTP {
   getData () {
-    return this.request({url: '/api/index.json'});
+    return this.request({url: '/error'});
+  }
+  postData () {
+    return this.request({
+      url: '/test/cityInfo',
+      method: 'post'});
   }
 }
 

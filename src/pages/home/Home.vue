@@ -4,7 +4,7 @@
  * @Author: huangyueshi
  * @Date: 2020-07-06 15:23:39
  * @LastEditors: huangyueshi
- * @LastEditTime: 2020-07-22 18:05:37
+ * @LastEditTime: 2020-07-22 18:59:15
 -->
 <template>
   <a-layout id="components-layout-demo-top-side-2">
@@ -93,4 +93,7 @@ export default {
 
 
 <style lang="scss" scoped>
+#components-layout-demo-top-side-2{
+  height: 100%
+}
 </style>

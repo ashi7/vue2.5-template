@@ -76,7 +76,7 @@ body{
 html{
   font-size: 50px;
   height: 100%;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 
 /*清除浮动*/
@@ -95,4 +95,8 @@ html{
 /*隐藏*/
 .dn{
   display: none;
+}
+
+#app{
+  height: 100%;
 }

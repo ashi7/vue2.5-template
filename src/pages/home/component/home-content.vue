@@ -4,7 +4,7 @@
  * @Author: huangyueshi
  * @Date: 2020-07-06 15:26:08
  * @LastEditors: huangyueshi
- * @LastEditTime: 2020-07-22 18:05:28
+ * @LastEditTime: 2020-07-23 16:00:53
 -->
 <template>
   <div>
@@ -19,12 +19,14 @@ const ApiIndex = new Api();
 export default {
   name: 'HomeContent',
   mounted() {
-    this.test()
+    this.test();
   },
   methods: {
     async test () {
-      const test = await ApiIndex.getData()
+      const test = await ApiIndex.getData();
+      // const post = await ApiIndex.postData();
       console.log(test);
+      // console.log(post);
     }
   },
 }
