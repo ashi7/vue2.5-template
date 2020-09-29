@@ -26,5 +26,17 @@ export default {
     mock.onGet('/error403').reply(403, {
       msg: 'failure'
     });
+
+    mock.onGet('/user/list').reply(config => {
+      return new Promise((resolve, reject) => {
+        // resolve() 响应Promise 对象的状态, 从 未完成 变为成功 可传递成功的处理函数
+        // reject()  响应Promise 对象的状态, 从 未完成 变为失败 可传递失败的处理函数
+        setTimeout(() => {
+          resolve([200, {
+            msg: '请求成功'
+          }]);
+        }, 1000);
+      });
+    });
   }
 };

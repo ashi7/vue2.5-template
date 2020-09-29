@@ -4,11 +4,14 @@
  * @Author: huangyueshi
  * @Date: 2020-07-06 15:26:08
  * @LastEditors: huangyueshi
- * @LastEditTime: 2020-07-23 16:00:53
+ * @LastEditTime: 2020-07-28 15:33:47
 -->
 <template>
   <div>
     Home Content
+    <div>
+      233
+    </div>
     <!-- <slot></slot> -->
   </div>
 </template>
